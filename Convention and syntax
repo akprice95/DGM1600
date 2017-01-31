@@ -1,1 +1,13 @@
 
+Convention- Essential to read and Write code
+Ex. Debug.LOg(transform.postion.x);
+    Country.City(Country.City.street);
+    
+    Indenting code is not nessisary but organises the code visually so you can read it more easily. It helps see where your code blocks start
+    and end. It helps especially if you are coding with other people so they can see what your doing. Another thing to help when working with
+    your fellow coders is to comment. Even if its a single line it will help not only other coders but help youself so you can take notes of 
+    what you did
+    
+    you need to us "//" so your done so it does not execute in your code
+    
+    
