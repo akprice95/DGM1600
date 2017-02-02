@@ -1,0 +1,39 @@
+
+Data types - int, float doule, string, Bool.,variables 
+
+ex.
+  int age = 6;
+  
+float measurment = 6.0;
+  
+double numBananas = 4.6;
+  
+string name = "DGM1600";
+  
+bool fullMay = time;
+
+
+
+
+
+
+
+
+public class Rotate : MonoBehaviour {
+    public float speed;
+//(we are assigning the variable a value
+    public float rotX = 15;
+    public float rotY = 30;
+    public float rotZ = 45;
+
+	// Use this for initialization
+	void Start () {
+       speed = Random.Range(.5f, 2.0f);
+        
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+//you then can put the variales in rather than putting the actual value so rotX below is representing 15 value.
+        transform.Rotate(new Vector3(rotX, rotY, rotZ) * Time.deltaTime);
