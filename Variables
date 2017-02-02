@@ -1,1 +1,7 @@
-
+Data types - int, float doule, string, Bool.
+variables ex.
+  int age = 6;
+  float measurment = 6.0;
+  double numBananas = 4.6;
+  string name = "DGM1600";
+  bool fullMay = time;
